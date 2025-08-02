@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Taxes & Efficiency",
+    "icon": "/Plus.svg",
+    "category": "Business",
+    "photo": "/1.png"
+  },
+  {
+    "id": 2,
+    "category": "Business",
+    "photo": "/2.png"
+  },
+  {
+    "id": 3,
+    "category": "Business",
+    "photo": "/3.png"
+  },
+  {
+    "id": 4,
+    "category": "Business",
+    "photo": "/4.png"
+  },
+  {
+    "id": 5,
+    "category": "Business",
+    "photo": "/5.png"
+  },
+  {
+    "id": 6,
+    "category": "Business",
+    "photo": "/6.png"
+  }
+]

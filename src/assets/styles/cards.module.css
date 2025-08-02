@@ -1,0 +1,71 @@
+.container {
+    width: var(--width);
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    background-color: var(--gray);
+    display: flex;
+    gap: 25px;
+    margin: 0 auto 112px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.card {
+    width: 100%;
+    max-width: 366px;
+    height: 344px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.content {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: #181818BF;
+    backdrop-filter: blur(3px);
+}
+.icon {
+    max-width: 54px;
+    max-height: 61px;
+    object-fit: contain;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 1;
+}
+.title {
+    font-family: var(--semibold);
+    font-size: var(--larger);
+    font-weight: 100;
+    color: #fff;
+    line-height: 148%;
+}
+.category {
+    font-family: var(--regular);
+    font-size: var(--small);
+    color: var(--yellow);
+    line-height: 148%;
+}
+.swiper {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.swiperSlide {
+  width: calc(100vw - 100px);
+  max-width: 366px;
+  height: 344px;
+}
+
+.sliderMode {
+  padding-left: 0;
+  padding-right: 0;
+}

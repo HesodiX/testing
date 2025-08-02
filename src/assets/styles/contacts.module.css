@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    width: var(--width);
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin: 0 auto 136px;
+}
+.title_block {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    width: 100%;
+    max-width: 420px;
+}
+.title_info {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.title_head {
+    font-family: var(--bold);
+    font-size: var(--large);
+    font-weight: lighter;
+}
+.title_head::before {
+    content: 'proccess';
+    display: block;
+    padding: 0px 15px 0px 15px;
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    font-size: var(--small);
+    font-family: var(--regular);
+    letter-spacing: 0.145em;
+    line-height: 148%;
+    width: max-content;
+    margin-bottom: 6px;
+}
+.title_description {
+    font-family: var(--regular);
+    font-size: var(--small);
+    color: var(--darkgray);
+    line-height: 148%;
+}
+.title_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    width: 100%;
+    max-width: 330px;
+}
+.contact_item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.contact_head {
+    font-size: var(--medium);
+    font-family: var(--semibold);
+    font-weight: 400;
+}
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.contact_description {
+    font-size: var(--small);
+    color: var(--darkgray);
+    font-family: var(--regular);
+}
+.form_block {
+    width: 100%;
+    max-width: 688px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: flex-start;
+}
+.form_fields {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.form_field, .form_area {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.form_field {
+    max-width: 318px;
+}
+.field_input, .message_area {
+    padding: 22px 33px 22px 33px;
+    outline: none;
+    font-family: var(--regular);
+    font-size: var(--small);
+    border: 1px solid var(--placeholder);
+    transition: 0.4s ease-in-out;
+}
+.field_input {
+    border-radius: 54px;
+}
+.field_input:focus, .message_area:focus {
+    background-color: var(--gray);
+}
+.message_area {
+    border-radius: 22px;
+    resize: none;
+    height: 189px;
+}
+.field_input::placeholder, .message_area::placeholder {
+    font-family: var(--regular);
+    color: var(--placeholder);
+    font-size: var(--small);
+}
+.field_head {
+    font-size: var(--small);
+    font-family: var(--regular);
+    color: var(--label);
+    line-height: 148%;
+}
+.form_button {
+    background-color: var(--label);
+    color: #fff;
+    font-family: var(--semibold);
+    font-size: var(--button);
+    padding: 16px 27px 16px 27px;
+    cursor: pointer;
+    border: none;
+    border-radius: 42px;
+    transition: 0.4s ease-in-out;
+}
+.form_button:hover {
+    background-color: var(--light-label);
+}

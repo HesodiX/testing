@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Regular";
+    src: url(./assets/fonts/Cabin-Regular.ttf);
+}
+@font-face {
+    font-family: "Semibold";
+    src: url(./assets//fonts/Cabin-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(./assets/fonts/Cabin-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+:root {
+    --bold: "Bold";
+    --semibold: "Semibold";
+    --regular: "Regular";
+    --small: 16px;
+    --button: 18px;
+    --larger: 25px;
+    --large: 45px;
+    --medium: 20px;
+    --yellow: #FFCC4A;
+    --gray: #F5F5F5;
+    --darkgray: #595566;
+    --placeholder: #C1C1C1;
+    --label: #181818;
+    --light-label: #666666;
+    --width: calc(100% - 40px);
+}
